@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 50px;
+}
+
+#contenedor {
+  width: 100%;
+}
+
+#media-h-2 {
+  stroke-dasharray: 0px 366.7306823730469px;
+  animation: mediah2 2s ease-in-out 5s forwards;
+}
+
+@keyframes mediah2 {
+  to {
+    stroke-dasharray: 366.7306823730469px;
+  }
+}
+
+#media-h {
+  stroke-dasharray: 0px 160.54246520996094px;
+  animation: mediah 1s ease-in 7s forwards;
+}
+
+@keyframes mediah {
+  to {
+    stroke-dasharray: 160.54246520996094px;
+  }
+}
+
+#palito-h {
+  stroke-dasharray: 0px 6.7352495193481445px;
+  animation: palitoh 1s ease 8s forwards;
+}
+
+@keyframes palitoh {
+  to {
+    stroke-dasharray: 6.7352495193481445px;
+  }
+}
+
+#erm {
+  stroke-dasharray: 0px 302.07586669921875px;
+  animation: erm 3.5s ease-out 9s forwards;
+}
+
+@keyframes erm {
+  to {
+    stroke-dasharray: 302.07586669921875px;
+  }
+}
+
+#ele {
+  stroke-dasharray: 0px 185.5642547607422px;
+  animation: ele 1s ease 12.5s forwards;
+}
+
+@keyframes ele {
+  to {
+    stroke-dasharray: 185.5642547607422px;
+  }
+}
+
+#iene {
+  stroke-dasharray: 0px 147.7529754638672px;
+  animation: iene 2s ease 13.5s forwards;
+}
+
+@keyframes iene {
+  to {
+    stroke-dasharray: 147.7529754638672px;
+  }
+}
+
+#de {
+  stroke-dasharray: 0px 157.66116333007812px;
+  animation: de 2s ease 15.5s forwards;
+}
+
+@keyframes de {
+  to {
+    stroke-dasharray: 157.66116333007812px;
+  }
+}
+
+#a {
+  stroke-dasharray: 0px 86.5180435180664px;
+  animation: a 2s ease 17.5s forwards;
+}
+
+@keyframes a {
+  to {
+    stroke-dasharray: 86.5180435180664px;
+  }
+}
+
+#efe-ere {
+  stroke-dasharray: 0px 609.5081176757812px;
+  animation: fr 3s ease-in-out 20s forwards;
+}
+
+@keyframes fr {
+  to {
+    stroke-dasharray: 609.5081176757812px;
+  }
+}
+
+#a-sin-rabo {
+  stroke-dasharray: 0px 58.572410583496094px;
+  animation: asinrabo 1s ease-in-out 23s forwards;
+}
+
+@keyframes asinrabo {
+  to {
+    stroke-dasharray: 58.572410583496094px;
+  }
+}
+
+#ene {
+  stroke-dasharray: 0px 131.6844024658203px;
+  animation: ene 1.5s ease-in-out 24s forwards;
+}
+
+@keyframes ene {
+  to {
+    stroke-dasharray: 131.6844024658203px;
+  }
+}
+
+#ce {
+  stroke-dasharray: 0px 34.329402923583984px;
+  animation: ce 0.5s ease-in-out 25.5s forwards;
+}
+
+@keyframes ce {
+  to {
+    stroke-dasharray: 34.329402923583984px;
+  }
+}
+
+#o {
+  stroke-dasharray: 0px 66.67062377929688px;
+  animation: o 0.5s ease-in-out 26.2s forwards;
+}
+
+@keyframes o {
+  to {
+    stroke-dasharray: 66.67062377929688px;
+  }
+}
+
+#nombre {
+  width: 100%;
+  position: relative;
+  font-family: sans-serif;
+  font-size: 5vw;
+  color: black;
+  letter-spacing: 2px;
+  margin-right: 5%;
+  margin-left: 6%;
+}
